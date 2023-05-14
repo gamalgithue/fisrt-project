@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="WebApplication13.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+    <meta charset="UTF-8">
+    <meta name="description" content="educational websiteFind the right instructor for you. Choose from many topics, skill levels, and languages. Sign Up Online. Get The App. View Blog. Highlights: App Available, Lifetime Access. Lifetime Access. High-Quality Courses. Online Courses">
+    <asp:ContentPlaceHolder ID="headtitle" runat="server"></asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="img/hashtag-icon.png">
+
+    
+    <asp:ContentPlaceHolder ID="headhh" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            
+                <nav class="navbar navbar-expand-lg  ">
+        <a class="navbar-brand" href="#"><span class="hash">#</span> <span class="logo">ACADEMY</span></a>
+    
+        <a href="#navbar" data-toggle="collapse" class="navbar-toggler">
+            <span class="navbar-icon"><ion-icon name="filter-outline"></ion-icon></span>
+    
+        </a>
+    
+    
+     <div id="navbar" class="collapse navbar-collapse"> 
+    
+        <ul class="navbar-nav ">
+            <li class="nav-item"><a class="nav-link" href="account.aspx">ACCOUNT</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.aspx">HOME</a></li>
+            <asp:ContentPlaceHolder ID="bodybb" runat="server">
+            </asp:ContentPlaceHolder>
+            <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
+            <asp:ContentPlaceHolder ID="bodyhead" runat="server"></asp:ContentPlaceHolder>
+        </ul>
+    
+        
+     </div>   
+        
+    </nav>
+            <asp:ContentPlaceHolder ID="bodyhh" runat="server">
+            </asp:ContentPlaceHolder>
+            <script src="bootstrap/js/jquery-3.6.4.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+
+            
+        </div>
+    </form>
+</body>
+</html>

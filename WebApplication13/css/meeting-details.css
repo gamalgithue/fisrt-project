@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+.heading-page {
+    background-image: url(../img/meeting-details/meeting-bg2.jpg);
+    position: relative;
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+    height: 20%;
+    padding-top: 230px;
+    padding-bottom: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-image: url(../img/meeting-details/blue-bg.jpg );
+   
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+    padding: 10px;
+
+}
+
+
+.info {
+    color: white;
+    text-align: center;
+}
+
+h6 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.meeting img {
+    border-radius: 20px 20px 0 0;
+    height: 450px;
+    width: 100%;
+}
+
+.meeting {
+
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: white;
+    min-width: 300px;
+    max-width: 900px;
+    min-height: 1350px;
+    max-height: 1700px;
+    position: relative;
+    top: 100px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+
+}
+
+p {
+    padding-left: 50px;
+    line-height: 30px;
+}
+
+h4,
+h5 {
+    font-size: 23px;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-left: 27px;
+    padding-bottom: 15px;
+    color: #0170b5;
+
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 47px;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.share img {
+    width: 50px;
+    height: 50px;
+    display: grid;
+}
+
+.logo {
+    display: grid;
+    grid-template-columns: 70px 70px 70px;
+}
+
+.button {
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: white;
+    color: #0170b5;
+    cursor: pointer;
+    border-radius: 30px;
+    position: relative;
+    margin-bottom: 100px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.button:hover {
+    color: #0170b5;
+    background-color: #FFD700;
+}
+.down-content{
+    display: flex;
+    flex-wrap: wrap;
+}
