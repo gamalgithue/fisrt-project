@@ -7,13 +7,17 @@ Project Web is an online courses website that aims to provide a platform for lea
 Front-End:
 
 HTML
+
 CSS
+
 Bootstrap
+
 Javascript
 
 Back-End:
 
 asp.net web form 
+
 Sql server
 
 Contributors:
