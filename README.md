@@ -1,4 +1,5 @@
 Online Courses
+
 Project Web is an online courses website that aims to provide a platform for learners to access a wide range of courses from various fields of study. This README file provides an overview of the project, instructions on how to set it up and run it locally, and additional information for developers.
 
 #Tools:
