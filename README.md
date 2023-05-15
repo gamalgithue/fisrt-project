@@ -36,7 +36,7 @@ Javascript
 
 Back-End:
 
-Asp.eNt Web Form 
+Asp.Net Web Form 
 
 Sql Server
 
