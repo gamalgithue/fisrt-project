@@ -36,9 +36,9 @@ Javascript
 
 Back-End:
 
-asp.net web form 
+Asp.eNt Web Form 
 
-Sql server
+Sql Server
 
 Contributors:
 
@@ -50,4 +50,4 @@ Mariam Elewa
 
 Maryam Magdy
 
-Bassant Selima
+Basant Selima
